@@ -1,5 +1,8 @@
 # Google Cloud Platform - Python Runtime Docker Image
 
+### AC:
+I cloned this repo to make an adapted based image from google's outdated app engine python images uploaded to their repository. Those are all Ubuntu 16. I need 18+. I cleaned up and fixed a few things and eliminated a bunch of things since I only need Python3.7. There is now a Dockerfile in this project directory.
+
 This repository contains the source for the
 [`gcr.io/google-appengine/python`](https://gcr.io/google-appengine/python)
 [docker](https://docker.io) base image. This image can be used as the base image
